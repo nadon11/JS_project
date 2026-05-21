@@ -1,0 +1,19 @@
+
+
+@mixin card-inverse-variant($bg, $border, $color) {
+  background: $bg;
+  border: 1px solid $border;
+  color: $color;
+}
+
+
+@mixin badge-variations($color) {
+	border: 1px solid $color;
+	color: $color; 
+}
+
+
+@mixin badge-outline-variations($color) {
+	color: $color;
+	border: 1px solid $color;
+}
